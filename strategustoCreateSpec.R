@@ -165,7 +165,6 @@ for (targetId in targetIds ) {
 
 patientLevelPredictionModuleSpecifications <- createPatientLevelPredictionModuleSpecifications(modelDesignList)
 
-
 analysisSpecifications <- createEmptyAnalysisSpecificiations() %>%
   addSharedResources(createCohortSharedResource(cohortDefinitions)) %>%
   addModuleSpecifications(cohortGeneratorModuleSpecifications) %>%
