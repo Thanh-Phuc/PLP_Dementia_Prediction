@@ -11,10 +11,10 @@ if (Sys.getenv("STRATEGUS_KEYRING_PASSWORD") == "") {
 }
 
 # Provide your environment specific values ------
-dbms <- "sql server"
-connectionString <- "jdbc:sqlserver://10.164.1.154:1433;databaseName=OHDSI_V5_V2"
-username <- "sa"
-password = "hiking@tmu2"
+dbms <- "your dbms"
+connectionString <- "your connectionString"
+username <- "username"
+password = "password"
 pathToDriver = '~/driver'
 
 
