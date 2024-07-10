@@ -7,14 +7,14 @@ library(Strategus)
 # Add your json file location, connection to OMOP CDM data settings
 options(renv.config.repos.override = c("https://cran.r-project.org/"))
 
-connectionDetailsReference <- "TMUCRD"
-workDatabaseSchema <- 'OHDSI_ACHILLES.dbo'
-cdmDatabaseSchema <- 'OHDSI_V5_V2.dbo'
+connectionDetailsReference <- "your connectionDetailsReference"
+workDatabaseSchema <- 'your workDatabaseSchema'
+cdmDatabaseSchema <- 'your cdmDatabaseSchema'
 
 # use absolute path
-outputLocation <- "/Users/thanhphucphan/Documents/aIDem/output"
+outputLocation <- "~/aIDem/output"
 minCellCount <- 3
-cohortTableName <- "ht2dem"
+cohortTableName <- "aIDem"
 
 # the keyring entry should correspond to what you selected in KeyringSetup.R
 connectionDetails = DatabaseConnector::createConnectionDetails(
