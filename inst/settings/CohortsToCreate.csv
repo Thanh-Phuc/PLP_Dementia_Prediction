@@ -1,0 +1,6 @@
+atlas_id,cohort_id,cohort_name,logic_description,generate_stats
+242,242,[Dementia] Type 2 DM,NA,TRUE
+262,262,[Dementia] Hypertension,NA,TRUE
+267,267,[Dementia] Depression,NA,TRUE
+243,243,[Dementia] Dementia All,NA,TRUE
+260,260,[Dementia] Vascular Dementia,NA,TRUE
